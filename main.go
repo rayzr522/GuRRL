@@ -139,6 +139,8 @@ __GuRRL__ stands for **G**olang **u**sing **R**eal **R**adioactive **L**asers. T
 
 ***What can you do?***
 Do `+prefix+`help for a list of commands
+
+[:computer: _Read the source, Luke!_](https://github.com/Rayzr522/GuRRL)
 `)
 
 		bot.ChannelMessageSendEmbed(m.ChannelID, &embed)
