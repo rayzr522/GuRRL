@@ -1,6 +1,0 @@
-#!/bin/bash
-cd "$(dirname "$0")"
-
-echo "Building main.go..."
-go build -o dist/main main.go || (echo "Failed to build"; exit 1)
-echo "Done - You can now find a built executable in dist/"
