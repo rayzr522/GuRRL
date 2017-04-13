@@ -17,3 +17,8 @@ Just run the built file and provide it with a token:
 ```
 main -t "YOUR_BOT_TOKEN"
 ```
+
+## Join Me
+If you need help with my bot, have a feature to request or just want to chat, you can join my Discord server! If you don't have Discord, don't worry. It only takes a few moments to sign up.
+
+[![Discord Badge](https://github.com/Rayzr522/ProjectResources/raw/master/RayzrDev/badge-small.png)](https://discord.io/rayzrdevofficial)
