@@ -1,9 +1,9 @@
 #!/bin/bash
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/.." || exit 1
 
 source settings.cfg
 
-PLATFORM="$(uname | tr [:upper:] [:lower:])"
+PLATFORM="$(uname | tr "[:upper:]" "[:lower:]")"
 FILE_NAME="$BOT_NAME-$PLATFORM-$BOT_VERSION"
 
 echo -n "Cleaning old files... "
